@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta para mi mejor amiga</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <button class="theme-toggle" onclick="toggleTheme()">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <main class="content">
+        <h1>¡Oye, te llegó una carta!</h1>
+        <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWZkNG55NHJ4OWdnanc5Y2k5ZndtdW1teDJqOGc2bGEybWdteHhiMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/olr5oi9bxPVeV30Yye/giphy.gif" alt="Vaca con una carta">
+        <div class="button-container">
+            <button class="button" onclick="showMessage(1)">
+                Carta de PCH
+            </button>
+            <button class="button" onclick="showMessage(2)">
+                Carta de RJV
+            </button>
+        </div>
+        <div id="message"></div>
+        <div class="copyright">
+            &copy; De parte de tus amigos Pedro y Romulo  👻 Desarrollado por Diaz.Jsx
+        </div>
+    </main>
+
+    <script src="script.js"> </script>
+</body>
+</html>
